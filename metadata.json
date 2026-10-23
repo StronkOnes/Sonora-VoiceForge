@@ -1,0 +1,6 @@
+{
+  "name": "SONORA VoiceForge",
+  "description": "Studio-grade vocal cleanup, noise reduction, and tonal clarity for phone recordings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

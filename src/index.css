@@ -1,0 +1,63 @@
+/* SONORA VoiceForge Global Audio Suite Styling */
+:root {
+  --bg-primary: #0a0c10;
+  --bg-surface: #12151c;
+  --bg-surface-elevated: #1a1e27;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-active: rgba(245, 158, 11, 0.35);
+  --text-primary: #e6e9ee;
+  --text-secondary: #9aa4b2;
+  --text-muted: #64748b;
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.2);
+  --accent-cyan: #38bdf8;
+  --signal-green: #10b981;
+  --signal-red: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Audio Suite Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1016;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252b38;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363e50;
+}
+
+/* Tabular Numerals for Audio Data Displays */
+.tabular-nums {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Selection */
+::selection {
+  background: rgba(245, 158, 11, 0.3);
+  color: #ffffff;
+}
